@@ -1,7 +1,7 @@
 import Footer from '../Components/footer';
 
 const Home = () => (
-  <div className="flex col ">
+  <div>
     <div className="mb-1 pb-2">
       <Footer />
     </div>
