@@ -1,9 +1,7 @@
-import Footer from '../Components/footer';
-
 const Home = () => (
   <div>
     <div className="mb-1 pb-2">
-      <Footer />
+      Home
     </div>
   </div>
 );
