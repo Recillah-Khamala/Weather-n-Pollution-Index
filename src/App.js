@@ -1,15 +1,17 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import './App.css';
+import Footer from './Components/footer';
 import Navigation from './Pages/navigation';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navigation />
       <div>
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 }
