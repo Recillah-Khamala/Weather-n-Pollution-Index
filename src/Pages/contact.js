@@ -8,7 +8,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ContactPage = () => (
-  <div className="text-white flex flex-col items-center gap-8 bg-blue-500 h-full pt-10">
+  <div className="text-white flex flex-col items-center gap-8 bg-blue-600 opacity-90 h-full pt-10">
     <h2 className="font-bold text-2xl text-center">
       Recillah Khamala Contact Information
     </h2>
@@ -40,7 +40,7 @@ const ContactPage = () => (
       </ul>
       <div className="social-card flex flex-wrap justify-center py-8 gap-4 ">
         <a
-          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-black hover:scale-110"
+          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-black hover:scale-125 rounded-md"
           href="https://github.com/Recillah-Khamala"
           target="_blank"
           rel="noreferrer"
@@ -52,7 +52,7 @@ const ContactPage = () => (
           <span>GitHub</span>
         </a>
         <a
-          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-[#de5246] hover:scale-110"
+          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-[#de5246] hover:scale-125 rounded-md"
           href="mailto:recillahk@gmail.com"
           target="_blank"
           rel="noreferrer"
@@ -61,7 +61,7 @@ const ContactPage = () => (
           <span>Email</span>
         </a>
         <a
-          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-orange-500 hover:scale-110"
+          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-orange-500 hover:scale-125 rounded-md "
           href="https://www.linkedin.com/in/recillah-Khamala/"
           target="_blank"
           rel="noreferrer"
@@ -70,7 +70,7 @@ const ContactPage = () => (
           <span>LinkedIn</span>
         </a>
         <a
-          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-yellow-500 hover:scale-110"
+          className="px-2 py-1 flex gap-1 items-center text-xl font-bold bg-yellow-500 hover:scale-125 rounded-md"
           href="https://twitter.com/recillahk"
           target="_blank"
           rel="noreferrer"
